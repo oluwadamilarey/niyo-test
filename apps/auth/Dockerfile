@@ -6,6 +6,8 @@ COPY package*.json ./
 
 RUN npm install --legacy-peer-deps
 
+RUN npm install bcrypt
+
 COPY . .
 
 RUN npm run build
