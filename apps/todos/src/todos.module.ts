@@ -26,4 +26,4 @@ import { Todo, TodoSchema } from './schemas/todo.schema';
   controllers: [TodosController],
   providers: [TodosService, TodosRepository],
 })
-export class TodoModule {}
+export class TodosModule {}

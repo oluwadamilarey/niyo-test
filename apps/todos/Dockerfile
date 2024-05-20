@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build todo
+RUN npm run build todos
 
 FROM node:alpine as production
 
